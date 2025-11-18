@@ -1,9 +1,9 @@
-// 🌟 1. Create an Empty Object
+//  1. Create an Empty Object
 const person = {}; 
 console.log("1️⃣ Empty Object:", person);
 
 
-// 🌟 2. Create an Object with Properties and Methods
+// 2. Create an Object with Properties and Methods
 const personDetails = {
   name: "John",
   age: 25,
@@ -34,7 +34,7 @@ person2.greetStudent(student);
 
 
 
-// 🌟 4. Access Object Properties (Dot and Bracket Notation)
+// 4. Access Object Properties (Dot and Bracket Notation)
 const person3 = {
   name: "John",
   age: 25
@@ -45,23 +45,22 @@ console.log("   Access using bracket notation:", person3["age"]); // 25
 
 
 
-// 🌟 5. Add a New Property
+// 5. Add a New Property
 person3.email = "shan@example.com";
 console.log("5️⃣ After adding email:", person3);
 
 
 
-// 🌟 6. Remove a Property
+// 6. Remove a Property
 delete person3.email;
 console.log("6️⃣ After removing email:", person3);
 
-// 🌟 7. Check Property Existence
+// 7. Check Property Existence
 console.log("7️⃣ 'name' in person3:", "name" in person3); // true
 console.log("   person3.hasOwnProperty('email'):", person3.hasOwnProperty("email")); // false
 
----
 
-// 🌟 8. Merge Two Objects
+// 8. Merge Two Objects
 const studentObj = { name: "Shan", age: 20 };
 const courseObj = { subject: "JavaScript", duration: "3 months" };
 
